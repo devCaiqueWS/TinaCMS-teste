@@ -1,4 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page - Templates
+
+Este projeto é uma aplicação Next.js que exibe uma página com duas listas de links para templates. Cada lista contém 1000 links, totalizando 2000 páginas. Acima de cada lista, há uma imagem representando o respectivo template.
+
+## O que foi feito
+
+- **Divisão de Links**: Os links foram divididos em duas listas:
+  - `/paginatemplate1/1` até `/paginatemplate1/1000`
+  - `/paginatemplate2/1` até `/paginatemplate2/1000`
+- **Imagens**: Adicionadas imagens acima de cada lista para representar os templates.
+- **Estilo**: Utilizado Tailwind CSS para estilização e organização da página.
+- **CMS**: Integrado com TinaCMS para facilitar a edição de conteúdo.
+
+## Como executar
+
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+2. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+3. Acesse [http://localhost:3000](http://localhost:3000) no navegador para visualizar a página.
+
+## Estrutura da Página
+
+- **Template 1**:
+  - Imagem representando o template.
+  - Lista de links de 1 a 1000.
+- **Template 2**:
+  - Imagem representando o template.
+  - Lista de links de 1 a 1000.
+
+## Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [TinaCMS](https://tina.io)
 
 ## Getting Started
 
